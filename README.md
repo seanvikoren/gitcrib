@@ -1,6 +1,6 @@
 # gitcrib
 
-[http://danielkummer.github.io/git-flow-cheatsheet/](Link URL)
+Thank You: http://danielkummer.github.io/git-flow-cheatsheet/
 
 Setup
 
