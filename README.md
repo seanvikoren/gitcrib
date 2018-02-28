@@ -59,19 +59,20 @@ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(ye
 
 ```
 
-Merge and Diff with Beyond Compare on OS X
+Merge and Diff with Beyond Compare 4
 
 ```
 :: BC4 Setup
-Launch Beyond Compare, go to the Beyond Compare menu and run "Install Command Line Tools"
+:: Launch Beyond Compare, go to the Beyond Compare menu and run "Install Command Line Tools"
 
 ::  This will get you set up to use 'git mergetool' and 'git difftool' while leaving git merge and git diff as-is
-git config --global diff.tool bc3 
-git config --global difftool.prompt false 
-git config --global merge.tool bc3
-
-:: Stop the leftover merge files
 git config --global mergetool.keepBackup false
+git config --global diff.tool bc4
+git config --global difftool.prompt false
+git config --global merge.tool bc4
+git config --global difftool.bc4.path "C:\Program Files\Beyond Compare 4\BCompare.exe"
+git config --global merge.tool bc4
+git config --global mergetool.bc4.path "C:\Program Files\Beyond Compare 4\BCompare.exe"
 
 :: Delete the leftover merge files
 find . -name '*.orig' -delete
