@@ -1,4 +1,7 @@
-# gitcrib
+gitcrib
+======================
+My personal disorganized set of reminders on how to get things done in git.
+
 
 Thank You: http://danielkummer.github.io/git-flow-cheatsheet/
 
