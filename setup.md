@@ -1,13 +1,21 @@
 Git Setup
 ======================
 
+### Set Name and email ###
 ```
-#!bat
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
 
-:: Windows Editor Setup
+```
+
+### Windows Editor Setup
+```
 git config --global core.editor '"C:/Program Files (x86)/Notepad++/notepad++.exe"'
+'``
 
-:: Mac Editor Setup
+
+### Mac Editor Setup
+```
 ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 export EDITOR='subl -w'
 git config --global core.editor "subl -n -w"
@@ -115,17 +123,6 @@ Thumbs.db
 (Optional) Download Beyond Compare 3
 (Optional) Using Beyond Compare 3 With Git Extensions
 ```
-
-### Configure name and e-mail
-
-```
-#!bat
-
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-
-```
-
 
 ## Gitflow Setup
 https://datasift.github.io/gitflow/IntroducingGitFlow.html
