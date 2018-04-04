@@ -11,7 +11,7 @@ git config --global user.email "you@example.com"
 ### Windows Editor Setup
 ```
 git config --global core.editor '"C:/Program Files (x86)/Notepad++/notepad++.exe"'
-'``
+```
 
 
 ### Mac Editor Setup
