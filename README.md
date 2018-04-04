@@ -10,7 +10,7 @@ Undo git add
 git reset
 ```
 
-Setup
+### Setup
 
 ```
 #!bat
