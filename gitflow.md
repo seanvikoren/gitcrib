@@ -1,8 +1,9 @@
 Gitflow
 =======
+Thanks to Daniel Kummer: http://danielkummer.github.io/git-flow-cheatsheet/
+
+
 # Workflow: Release Sequence #
-
-
 ```
 #!bat
 
@@ -18,9 +19,8 @@ git push origin master
 git checkout develop
 
 ```
+
 # Workflow: Hotfix Sequence #
-
-
 ```
 #!bat
 
