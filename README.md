@@ -1,7 +1,7 @@
 gitcrib
 ======================
 
-My personal disorganized set of reminders on how to get things done in git.
+My personal set of reminders on how to get things done in git.
 
 ### Create new branch from existing branch
 ```
