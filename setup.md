@@ -161,13 +161,7 @@ https://datasift.github.io/gitflow/IntroducingGitFlow.html
 * Reference
 
 
-Edit Global Configuration
-```
-#!bat
-subl ~/.gitconfig
-```
-
-Configuration Management
+## Configuration Management
 
 ```
 #!bat
@@ -188,3 +182,10 @@ git add -f <filename>
 git pull origin develop
 
 ``` 
+
+### Edit Global Configuration
+```
+#!bat
+subl ~/.gitconfig
+```
+
