@@ -154,8 +154,6 @@ git config --global user.email "you@example.com"
 
 Setup
 
-```
-#!bat
 * Clone a copy of the remote origin repository and switch to the develop branch.
 * cd /IVP
 * git clone https://insidevaluation.unfuddle.com/git/insidevaluation_gitsourcecode/ work
@@ -186,7 +184,7 @@ Setup
 * Reversion
 * Reference
 * 
-```
+
 
 Reset a branch to another branch
 
