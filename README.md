@@ -8,6 +8,11 @@ My personal set of reminders on how to get things done in git.
 git checkout -b develop master
 ```
 
+### Set Upstream Branch
+```
+git branch --track fnc origin/fnc
+```
+
 ### Undo git add
 ```
 git reset
@@ -65,11 +70,6 @@ git stash pop
 git stash clear
 ```
 
-### Set Upstream Branch
-```
-git branch --track fnc origin/fnc
-```
-
 ### Resolve Conflicts
 ```
 :: See file difference in origin
@@ -114,13 +114,14 @@ git fetch origin && git remote prune origin && git branch -a
 ```
 git checkout --orphan EmptyBranch
 ```
-### Untidy
-```
-#!bat
 
-:: Or in the case of a conflict where you want the differences in origin to take precedence.
+### Merge with remote taking precedence
+```
 git pull -s recursive -X theirs origin develop
-Work on a shared feature branch through origin
+```
+
+### Work on a shared feature branch through origin
+```
 :: On feature creation
 git checkout -b feature26 develop
 (make changes)
@@ -130,9 +131,9 @@ git push -u origin feature26 # -u sets the upstream
 :: On collaborators machine
 git fetch origin
 git checkout --track origin/feature26
- 
-:: Or to cause an existing local branch to track against an existing branch in origin:
+```
 
-
+### Cause an existing local branch to track against an existing branch in origin:
+```
 git branch -u origin/fnc
 ```
