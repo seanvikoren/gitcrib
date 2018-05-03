@@ -8,9 +8,14 @@ My personal set of reminders on how to get things done in git.
 git checkout -b develop master
 ```
 
-### Set Upstream Branch
+### Create branch that tracks upstream branch
 ```
 git branch --track fnc origin/fnc
+```
+
+### Cause an existing local branch to track against an existing branch in origin:
+```
+git branch -u origin/fnc
 ```
 
 ### Undo git add
@@ -133,7 +138,3 @@ git fetch origin
 git checkout --track origin/feature26
 ```
 
-### Cause an existing local branch to track against an existing branch in origin:
-```
-git branch -u origin/fnc
-```
