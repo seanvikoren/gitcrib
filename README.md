@@ -13,6 +13,11 @@ git checkout -b develop master
 git branch --track fnc origin/fnc
 ```
 
+### Create remote branch and cause the local branch to track against it
+```
+git push --set-upstream origin feature97
+```
+
 ### Cause an existing local branch to track against an existing branch in origin:
 ```
 git branch -u origin/fnc
