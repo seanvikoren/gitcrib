@@ -153,4 +153,7 @@ git checkout -b uwp
 
 :: Set the upstream branch
 git push --set-upstream origin uwp
+
+:: Push the new branch to origin
+git push origin
 ```
