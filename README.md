@@ -152,4 +152,5 @@ git checkout -m 913f7cf
 git checkout -b uwp
 
 :: Set the upstream branch
+git push --set-upstream origin uwp
 ```
