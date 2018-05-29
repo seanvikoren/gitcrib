@@ -143,3 +143,13 @@ git fetch origin
 git checkout --track origin/feature26
 ```
 
+### Create a new branch from a prior commit
+```
+:: Get the target commit
+git checkout -m 913f7cf
+
+:: Set the now detached head to a new branch
+git checkout -b uwp
+
+:: Set the upstream branch
+```
