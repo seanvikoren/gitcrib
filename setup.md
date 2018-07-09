@@ -70,7 +70,7 @@ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(ye
 ```
 :: Edit the .gitignore file in the root of the repository (or chreate it).
 
-:: Then add the changed .gitignore (this will cause the new exclusions to show)
+:: Then add the changed .gitignore (this will cause the new exclusions to operate).
 git add -A
 ```
 
