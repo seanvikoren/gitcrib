@@ -2,6 +2,38 @@ Gitflow
 =======
 Thanks to Daniel Kummer: http://danielkummer.github.io/git-flow-cheatsheet/
 
+## Gitflow Setup
+https://datasift.github.io/gitflow/IntroducingGitFlow.html
+
+* Clone a copy of the remote origin repository and switch to the develop branch.
+* cd /IVP
+* git clone https://insidevaluation.unfuddle.com/git/insidevaluation_gitsourcecode/ work
+* cd work
+* git checkout develop
+* Setup default exclusions.
+* Open Visual Studio
+* From the 'Git' menu, select 'Edit .gitignore'
+* 'Add Default Ignores'
+* Be sure that *.suo *.sln and *.csproj are included.
+* 'Save'
+* Set Visual Studio to use Git
+* Set 'Tools->Options->Source Control->Plug-in Selection' to 'Git source control provider'
+* Command-line Extensions
+* If you have a P: drive mapped to a network user folder, you may want to:
+* Create a 'p:\bin' folder and add it to your PATH env variable.
+* Place the following commands in that folder to extend you command-line flexibility.
+* e.bat (Edit a file from the command line.  Allows for editing files in the user folder using 'e ~\.gitignore' format.)
+* clone.py (Allows the two types of clone used in GitFlow to be done easily.)
+
+* Getting Started
+* GitFlow Scripts
+* GitFlow process explanation
+* Release Process
+* Hot-Fix Process
+* Peer to Peer
+* Feature Branch
+* Reversion
+* Reference
 
 # Workflow: Release Sequence #
 ```
