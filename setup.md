@@ -72,6 +72,9 @@ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(ye
 :: Clone a Repository (example)
 git clone https://sean_vikoren@bitbucket.org/Matt_geyer/edg-model-e.git
 
+:: Move into the new repository 
+cd edg-model-e
+
 :: Show branches
 git branch -a
 
