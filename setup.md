@@ -66,6 +66,14 @@ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(ye
 ```
 
 
+### Make .gitignore chages
+```
+:: Edit the .gitignore file in the root of the repository (or chreate it).
+
+:: Then add the changed .gitignore (this will cause the new exclusions to show)
+git add -A
+```
+
 ### Setup Merge and Diff with Beyond Compare 4 (not working)
 
 ```
