@@ -37,7 +37,11 @@ git config --global --edit
 [mergetool "bcomp"]
     trustExitCode = true
     cmd = "/usr/local/bin/bcomp" "$LOCAL" "$REMOTE" "$BASE" "$MERGED"
+```
 
+
+### Misc Setup
+```
 :: Other
 git config --global core.excludesfile ~/.gitignore
 git config --global mergetool.keepBackup false
