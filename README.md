@@ -28,6 +28,12 @@ git branch -u origin/fnc
 git reset
 ```
 
+### Undo git commit
+```
+git reset --soft HEAD~1
+```
+
+
 ### Check out a single file
 ```
 #!bat
