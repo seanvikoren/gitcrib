@@ -3,6 +3,11 @@ gitcrib
 
 My personal set of reminders on how to get things done in git.
 
+### Create new project from github
+```
+git clone https://github.com/ElhamAryanpur/BlueEngine.git
+```
+
 ### Create new branch from existing branch
 ```
 git checkout -b develop master
