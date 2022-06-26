@@ -6,10 +6,8 @@ My personal set of reminders on how to get things done in git.
 ![relax](https://github.com/seanvikoren/gitcrib/blob/master/relax.jpg?raw=true)
 
 ### Getting Started
-[setup](setup.md)
-```
-[setup](setup.md)
-```
+Everything needed to get [started](setup.md).
+
 
 [Getting Started](setup.md)
 
