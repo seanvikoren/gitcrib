@@ -8,11 +8,12 @@ My personal set of reminders on how to get things done in git.
 ### Getting Started
 Everything needed to get [started](setup.md).
 
+### Miscelanious
 
-[Getting Started](setup.md)
+Various [tips](misc.md) and tricks.
 
-[Various miscelanious tips.](misc.md)
+### Gitflow
+[Gitflow](gitflow.md) is a great way to use git with teams.
 
-[Gitflow is a great way to use git with teams.](gitflow.md)
-
-[In case of error, break glass.](error.md)
+### Error
+In case of [error](error.md), break glass.
