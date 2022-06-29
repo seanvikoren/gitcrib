@@ -8,7 +8,7 @@ My personal set of reminders on how to get things done in git.
 ### Getting Started
 Everything needed to get [started](setup.md).  
   
-### Miscelanious
+### Miscellaneous
 Various [tips](misc.md) and tricks.  
   
 ### Gitflow
